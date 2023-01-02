@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
     <title>JS Fetch Search films</title>
     <link
       rel="stylesheet"
@@ -24,7 +28,9 @@
           <button class="btn btn-primary">Search</button>
         </div>
       </form>
-      <ul class="row list-unstyled my-5 justify-content-center gap-3 js-list"></ul>
+      <ul
+        class="row list-unstyled my-5 justify-content-center gap-3 js-list"
+      ></ul>
     </div>
     <script src="./js/main.js"></script>
   </body>
